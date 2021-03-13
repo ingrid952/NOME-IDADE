@@ -1,0 +1,2 @@
+# NOME-IDADE
+statiimport java.util.Scanner; //pegar infrmações do teclado public class TerceiroPrograma { static Scanner scan  = new Scanner (System.in); // declarando scan public static void main (String []args) { System.out.println(“Informe seu nome”); String nome = scan.next(); System.out.println(“Informe sua idade”); int idade = scan.nextInt(); System.out.printf(“O nome informado é %s e a Idade é %d”, nome,idade); } }
